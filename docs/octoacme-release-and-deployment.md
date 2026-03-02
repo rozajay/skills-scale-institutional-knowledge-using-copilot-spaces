@@ -13,15 +13,17 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Passing CI and security scans
 - Release notes drafted
 - Rollback / mitigation plan documented
-- Smoke tests prepared
+- Smoke tests prepared (QA Lead coordinates)
+- Support Lead briefed and support documentation updated
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)
 - [ ] Backup or snapshot (if applicable)
-- [ ] Deploy to staging and run smoke tests
+- [ ] Deploy to staging and run smoke tests (QA Lead confirms pass)
 - [ ] Deploy to production (automated pipeline preferred)
 - [ ] Run post-deploy verifications
-- [ ] Announce release to stakeholders and support
+- [ ] Announce release to stakeholders and support (Support Lead prepares comms)
+- [ ] Pre-release handoff completed — see [Cross-functional Collaboration Checklist](octoacme-cross-functional-collaboration-checklist.md)
 
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
